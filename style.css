@@ -1,0 +1,25 @@
+[class*="col-"]{
+  border: 1px solid black;
+  height: 100px;
+}
+
+
+#deploy{
+  background-color: red;
+}
+
+#service{
+  background-color: blue;
+}
+
+#teams{
+  background-color: #ccc;
+}
+
+#started{
+  background-color: blue;
+}
+
+footer{
+  background-color: pink;
+}
