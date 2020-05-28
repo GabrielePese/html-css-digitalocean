@@ -100,6 +100,11 @@ header a img{
   border-radius: 5px;
 
 }
+#g-piccolo{
+  height: 15px;
+  margin-right: 130px;
+  margin-left: -145px;
+}
 
 #jumbo h3:last-of-type{
   color:#006aff;
