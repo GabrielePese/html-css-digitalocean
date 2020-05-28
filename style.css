@@ -2,13 +2,10 @@
   border: 1px solid black;
   height: 100px;
 } */
-
+/* HEADER */
 
 /* X NAV FIXED */
 body { padding-top: 50px; }
-
-/* HEADER */
-
 
 .navbar-nav{
   margin-left: 75px;
@@ -102,8 +99,10 @@ header a img{
 }
 #g-piccolo{
   height: 15px;
-  margin-right: 130px;
-  margin-left: -145px;
+  position:absolute;
+  left:35px;
+  bottom: 5px;
+  bottom: 93px;
 }
 
 #jumbo h3:last-of-type{
@@ -117,7 +116,30 @@ header a img{
 .bottoni-form .btn-default{
   width: 100%;
   margin-bottom: 5px;
+}
 
+/* BUSINESS */
+#business{
+  background-color: #f3f5f9;
+  text-align: center;
+}
+#business h6{
+  color: #6f7b97;
+  text-align: center;
+  margin-top: 40px;
+}
+#business img{
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+}
+#business a{
+  color: #579aff;
+
+}
+
+#stories{
+  padding-bottom: 20px;
 }
 
 #deploy{
@@ -140,3 +162,5 @@ header a img{
 footer{
   background-color: pink;
 }
+
+/* BUSINESS */
