@@ -138,15 +138,56 @@ header a img{
 
 }
 
-#stories{
+#business #stories{
   padding-bottom: 20px;
 }
 
+/* DEPLOY */
 #deploy{
-  background-color: red;
+  /* background-color: red; */
   height: 600px;
 }
 
+.esperimento{
+  margin-top: 30px;
+}
+#riga1{
+  margin-bottom: 40px;
+}
+#deploy h2{
+  text-align: center;
+  margin-top: 40px;
+}
+#deploy #pgh{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom:60px;
+}
+#blocco_dx{
+  margin-top: 30px;
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+  padding-left: 0;
+
+}
+#blocco_dx ul{
+  list-style-type:none;
+  padding-left: 5px;
+}
+#blocco_dx li{
+  padding-bottom: 15px;
+
+}
+#blocco_dx a{
+  color:#ccc;
+}
+#blocco_dx h5{
+  color: #031c4e;
+  margin-top: 15px;
+}
+#dio{
+  margin-left: 5px;
+}
 #service{
   background-color: blue;
 }
