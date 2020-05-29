@@ -1,7 +1,4 @@
-/* [class*="col-"]{
-  border: 1px solid black;
-  height: 100px;
-} */
+
 /* HEADER */
 
 /* X NAV FIXED */
@@ -182,7 +179,7 @@ header a img{
   color: #031c4e;
   margin-top: 15px;
 }
-#dio{
+.dio{
   margin-left: 5px;
 }
 
@@ -361,4 +358,5 @@ footer li{
   color:#7a859d;
   list-style-type:none;
   text-align: left;
+  padding-bottom: 5px;
 }
