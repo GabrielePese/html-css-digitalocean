@@ -143,10 +143,7 @@ header a img{
 }
 
 /* DEPLOY */
-#deploy{
-  /* background-color: red; */
-  height: 600px;
-}
+
 
 .esperimento{
   margin-top: 30px;
@@ -188,6 +185,55 @@ header a img{
 #dio{
   margin-left: 5px;
 }
+
+/* DEVELOPERS */
+#developers{
+  text-align: center;
+  background-color: #f3f5f9;
+}
+
+#developers img{
+  height: 350px;
+  width: auto;
+  margin-top: 50px;
+}
+
+#developers h2{
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+#developers a{
+  padding: 10px;
+}
+#developers .punti{
+  margin-bottom: 50px;
+}
+
+#developers .punti i{
+  padding-left: 5px;
+}
+
+
+/* FEATURES */
+
+#features{
+padding-bottom: 20px
+}
+
+#features h2{
+  text-align: center;
+  margin-top:50px;
+  margin-bottom: 20px;
+}
+
+#features .algn{
+  text-align: left;
+}
+
+
+
+
 #service{
   background-color: blue;
 }
@@ -203,5 +249,3 @@ header a img{
 footer{
   background-color: pink;
 }
-
-/* BUSINESS */
