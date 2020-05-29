@@ -157,30 +157,27 @@ header a img{
   margin-top: 15px;
   margin-bottom:60px;
 }
-#blocco_dx{
+.blocco_dx{
   margin-top: 30px;
-  border-left: 1px solid #ccc;
-  margin-left: 10px;
   padding-left: 0;
 
 }
-#blocco_dx ul{
+.blocco_dx ul{
   list-style-type:none;
   padding-left: 5px;
+  border-left: 1px solid #ccc;
+
 }
-#blocco_dx li{
+.blocco_dx li{
   padding-bottom: 15px;
 
 }
-#blocco_dx a{
+.blocco_dx a{
   color:#ccc;
 }
-#blocco_dx h5{
+.blocco_dx h5{
   color: #031c4e;
   margin-top: 15px;
-}
-.dio{
-  margin-left: 5px;
 }
 
 /* DEVELOPERS */
