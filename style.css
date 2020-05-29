@@ -151,7 +151,7 @@ header a img{
 #riga1{
   margin-bottom: 40px;
 }
-#deploy h2{
+#deploy h3{
   text-align: center;
   margin-top: 40px;
 }
@@ -198,7 +198,7 @@ header a img{
   margin-top: 50px;
 }
 
-#developers h2{
+#developers h3{
   margin-top: 40px;
   margin-bottom: 25px;
 }
@@ -212,6 +212,7 @@ header a img{
 
 #developers .punti i{
   padding-left: 5px;
+  color:#006aff;
 }
 
 
@@ -221,7 +222,7 @@ header a img{
 padding-bottom: 20px
 }
 
-#features h2{
+#features h3{
   text-align: center;
   margin-top:50px;
   margin-bottom: 20px;
@@ -232,20 +233,132 @@ padding-bottom: 20px
 }
 
 
-
-
 #service{
-  background-color: blue;
+  background-color: #003bb8;
+}
+#service h3{
+  color:white;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 
+.tbx{
+  margin-bottom: 35px;
+}
+
+.cella{
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.cella::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.codice{
+  color:white;
+  float:left;
+  width: 15%;
+}
+.city{
+    color:white;
+    float: left;
+    width: 60%;
+}
+.speed a{
+    color:#00d5d1;
+    float:left;
+    width: 25%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+/* TEAMS */
 #teams{
-  background-color: #ccc;
+  text-align: center;
+  background-color: #f3f5f9;
 }
 
-#started{
-  background-color: blue;
+#teams img{
+  height: 350px;
+  width: auto;
+  margin-top: 50px;
 }
+
+#teams h3{
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+#teams a{
+  padding: 10px;
+}
+#teams .punti{
+  margin-bottom: 50px;
+}
+
+#teams .punti i{
+  padding-left: 5px;
+  color: #006aff;
+}
+
+/* STARTED */
+#started{
+  background-color: #0037b1;
+  text-align: center;
+  color:white;
+}
+#started h3{
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+#started a{
+  padding: 10px;
+  background-color: white;
+  color: #0037b1;
+  border-radius: 5px;
+}
+#started .create{
+  margin-bottom: 50px;
+}
+
+/* FOOTER */
 
 footer{
-  background-color: pink;
+  background-color: #031c4e;
+  padding-top: 40px;
+}
+
+footer img{
+  height: 35px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+footer p{
+  font-size: 11px;
+  color:#7a859d;
+}
+
+footer i{
+  padding-right: 10px;
+  font-size:15px
+}
+footer h5{
+  color: white;
+}
+
+footer ul{
+  padding-left: 0;
+}
+footer li{
+  color:#7a859d;
+  list-style-type:none;
+  text-align: left;
 }
