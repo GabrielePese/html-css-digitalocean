@@ -19,7 +19,7 @@ header a img{
 }
 
 /* PER FAR COLLASSARE HAMBURGER MENU A 991PX */
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
   .navbar-header {
       float: none;
   }
@@ -53,6 +53,14 @@ header a img{
   }
   .collapse.in{
       display:block !important;
+  }
+
+  #developers i{
+    display: none;
+  }
+
+  #teams i{
+    display: none;
   }
 }
 
